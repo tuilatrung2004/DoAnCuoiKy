@@ -1,4 +1,4 @@
-<footer class="footer modern-footer py-5">
+<footer class="footer bg-dark text-white py-5">
     <div class="container">
         <div class="row">
             <!-- Giới thiệu -->
