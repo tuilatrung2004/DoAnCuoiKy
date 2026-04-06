@@ -1,0 +1,72 @@
+/* Custom styles for Swiper */
+.swiper {
+    padding: 20px 30px;
+    overflow: visible;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #0d6efd;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 20px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #0d6efd;
+}
+
+/* Product card styles */
+.card {
+    height: 710px;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+} 
+
+.card1 {
+    height: 250px;
+    margin: 0 auto;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+.card1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+} 
+
+.card2 {
+    height: 300px;
+    margin: 0 auto;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+.card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+
